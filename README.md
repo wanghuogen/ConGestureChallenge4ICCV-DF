@@ -48,6 +48,7 @@ step4. train the network
 step5. Fine-tuning the RGB neural network using the Rgb models as the pre-trained model, and  fine-tuning the depth neural network using the Rgb models as the pre-trained model.
 
 ####Step 7.Generate the test_prediction.txt
+
 step1.Step in LSTM, run "python test4depth.py", "test4depth_DF.py","test4rgb.py","test4rgb_DF.py"
 
 step2. run the code "classifier4fusion10.py" in the folder. Please change caffe_root in the very beginning 
